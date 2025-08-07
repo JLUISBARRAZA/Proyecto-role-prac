@@ -1,0 +1,31 @@
+body{
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+form, #adminPanel{
+  display:flex;
+  flex-direction: column;
+  max-width:300px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,button{
+  padding: 10px;
+  font-size: 1em;
+}
+
+h2{color: red;}
+
+::placeholder{color:blue}
+
+#role{
+  color: blueviolet;
+}
+
+#Registrarse{
+  color:cornflowerblue
+}
+
+
